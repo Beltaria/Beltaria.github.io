@@ -55,11 +55,27 @@
     padding-bottom: 20px;
 }
 
-.div-item a {
+/*.div-item a {*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    padding: 10px;*/
+/*    background-color: #e58585;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+.link-saumon {
     color: white;
     text-decoration: none;
     padding: 10px;
     background-color: #e58585;
+    border-radius: 10px;
+}
+
+.link-blue {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #56dff6;
     border-radius: 10px;
 }
 
