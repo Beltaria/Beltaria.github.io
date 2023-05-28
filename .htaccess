@@ -9,3 +9,7 @@ RewriteRule ^(.*)$ $1.html [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /404 [L,R=301]
+
+# Redirige vers la page https
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://beltaria.fr/$1 [L,R=301]
