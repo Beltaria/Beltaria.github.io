@@ -1,10 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beltaria - Wiki</title>
+    <link rel="icon" href="image/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <p>Erreur 404, retournez sur la page d'<a href="index">accueil</a></p>
+<section class="bc-img">
+    <nav>
+        <div class="nav-container">
+            <div class="nav-item">
+                <a href="index.html">
+                    <img src="image/favicon.png" alt="favicon" width="40">
+                </a>
+            </div>
+
+            <div class="nav-item">
+                <a href="">En savoir plus</a>
+            </div>
+            <div class="nav-item">
+                <a href="https://github.com/Beltaria" target="_blank">
+                    <img src="image/github.png" alt="github_icon" width="40">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="section-error">
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center">
+            <h1 style="color: white; font-size: 40px; text-shadow: 2px 2px #4f4949;">Erreur 404</h1>
+            <p style="color: white; font-size: 20px; text-shadow: 2px 2px #585353;">Retournez sur la page d'<a href="index.html" style="color: white;">accueil</a></p>
+        </div>
+    </div>
+    <footer style="background-color: red; height: 400px; background-color: rgba(221, 238, 244, 0.5);">
+        <div>
+            <p></p>
+        </div>
+    </footer>
+</section>
 </body>
 </html>
+<style>
+    .section-error {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: calc(100vh - 64px - 400px - 200px);
+        /*margin: calc(100vh - 64px - 400px - 200px - 90px);*/
+    }
+</style>
