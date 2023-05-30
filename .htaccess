@@ -13,3 +13,8 @@ RewriteRule ^(.*)$ /404 [L,R=301]
 # Redirige vers la page https
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.beltaria.fr/$1 [R,L]
+
+# Supprime le .html dans l'url
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
