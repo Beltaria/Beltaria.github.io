@@ -1,1 +1,3 @@
 # Beltaria.github.io
+
+# Wiki
